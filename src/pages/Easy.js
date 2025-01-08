@@ -1,5 +1,5 @@
-import Greeting from "../components/Greeting";
 import Pagetitle from "../components/Pagetitle";
+import Greeting from "../components/Greeting";
 import SecondGreeting from "../components/SecondGreeting";
 
 function Easy() {
@@ -7,7 +7,7 @@ function Easy() {
     <>
       <Pagetitle
         title="Easy: Greeting"
-        subtitle="The 'Greeting' component that displays a message."
+        subtitle="Two 'Greeting' components that displays a short message. The first greeting is called by name, the second through entering the name."
       />
       <Greeting name="Mr. Mahler" />
       <hr />
