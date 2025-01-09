@@ -9,7 +9,7 @@ function Easy() {
         title="Easy: Greeting"
         subtitle="Two 'Greeting' components that displays a short message. The first name is stated when calling the Greeting component, the second through entering the name in the input field."
       />
-      <Greeting name="Mr. Mahler" />
+      <Greeting name="Gustav Mahler" occupation="classical composer" />
       <hr />
       <SecondGreeting />
     </>
